@@ -4,7 +4,7 @@ import { FaMailBulk, FaPhone, FaWhatsapp } from "react-icons/fa";
 export default function Contact() {
   return (
     <div className="my-20 bg-slate-200 w-full min-h-[30vh] py-8">
-      <div className="w-4/5 md:w-4/5 lg:w-3/5 mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-[30vh] place-content-center">
+      <div className="w-4/5 lg:w-4/5 mx-auto grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 min-h-[30vh] place-content-center">
         {/* contact card */}
         <div class="relative  shadow-md flex items-center justify-center gap-3 border rounded-md border-blue-800 min-h-[100px] cursor-pointer overflow-hidden group">
           <div class="relative z-30 flex items-center justify-center gap-8">

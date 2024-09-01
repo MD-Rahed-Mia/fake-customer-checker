@@ -16,7 +16,7 @@ export default function Footer() {
         backgroundPosition: "center",
       }}
     >
-      <div className="grid grid-cols-2 lg:grid-cols-3 mt-12 w-4/5 mx-auto gap-12">
+      <div className="grid grid-cols-1 place-content-center place-items-center lg:grid-cols-3 mt-12 w-4/5 mx-auto gap-12">
         <div>
           <span>
             <h1 className="text-3xl font-bold  uppercase text-white">
@@ -74,30 +74,37 @@ export default function Footer() {
         {/* mid row ends here */}
 
         {/* news letter starts here */}
-        <div>
+        <div className="">
           <div>
             <h1 className="text-2xl text-blue-500 my-8">
               Subscribe our newsletter
             </h1>
           </div>
           <div>
-            <div className="w-full bg-blue-500 flex items-center justify-between rounded-sm">
-              <input
-                type="email"
-                name="news-letter"
-                id="news-letter"
-                placeholder="your email"
-                className="w-full h-full py-2 px-2 text-blue-500 outline-none border-0  bg-transparent placeholder:text-white"
-              />
-              <button className="px-4 py-2 text-blue-500 bg-white">
-                Subscribe
-              </button>
+            <div>
+              <form
+                action=""
+                className="w-full bg-blue-500 flex items-center justify-between rounded-sm"
+              >
+                <input
+                  type="email"
+                  name="news-letter"
+                  id="news-letter"
+                  placeholder="your email"
+                  className="w-full h-full py-2 px-2 text-white outline-none border-0  bg-transparent placeholder:text-white"
+                />
+                <button className="px-4 py-2 text-blue-500 bg-white">
+                  Subscribe
+                </button>
+              </form>
             </div>
           </div>
-
-            <div >
-              <h3 className="mt-4 text-white leading-5">Subscribe our email. Stay connected with us. Get latest updates and news.</h3>
-            </div>
+          <div>
+            <h3 className="mt-4 text-white leading-5">
+              Subscribe our email. Stay connected with us. Get latest updates
+              and news.
+            </h3>
+          </div>
         </div>
 
         {/* news letter ends here */}
