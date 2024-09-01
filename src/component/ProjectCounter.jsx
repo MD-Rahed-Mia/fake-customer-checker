@@ -16,10 +16,24 @@ export default function ProjectCounter() {
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-3xl md:text-6xl font-bold text-white">
+              <span className="text-2xl md:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-sm md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-xl text-white font-light uppercase">
+                Satisfaction Rates
+              </span>
+            </h1>
+          </div>
+          {/* ends */}
+
+
+          {/* starts */}
+          <div>
+            <h1 className="flex flex-col items-center justify-center gap-4">
+              <span className="text-2xl md:text-6xl font-bold text-white">
+                100%
+              </span>
+              <span className="text-[12px] md:text-xl text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>
@@ -28,10 +42,10 @@ export default function ProjectCounter() {
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-3xl md:text-6xl font-bold text-white">
+              <span className="text-2xl md:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-sm md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-xl text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>
@@ -40,22 +54,10 @@ export default function ProjectCounter() {
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-3xl md:text-6xl font-bold text-white">
+              <span className="text-2xl md:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-sm md:text-xl text-white font-light uppercase">
-                Satisfaction Rates
-              </span>
-            </h1>
-          </div>
-          {/* ends */}
-          {/* starts */}
-          <div>
-            <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-3xl md:text-6xl font-bold text-white">
-                100%
-              </span>
-              <span className="text-sm md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-xl text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>

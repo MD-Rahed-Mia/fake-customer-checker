@@ -6,10 +6,10 @@ import { MdHeadsetMic } from "react-icons/md";
 
 export default function Services() {
   return (
-    <div className="w-full min-h-[400px] -translate-y-24 ">
-      <div className="w-3/5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 h-[400px] place-content-center">
+    <div className="w-full min-h-[40vh] -translate-y-24 ">
+      <div className="w-4/5 lg:w-3/5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 min-h-[400px] place-content-center">
         {/* card starts */}
-        <div className="min-w-40 min-h-[300px] py-8 relative  rounded-md  shadow-md group transition-all bg-white">
+        <div className="min-w-40 shrink-0 min-h-[300px] py-8 relative  rounded-md  shadow-md group transition-all bg-white">
           <div className="relative z-20">
             <div className="my-4 w-20 mx-auto z-20">
               <span className="w-20 h-20 bg-slate-300  rounded-full flex items-center justify-center text-4xl font-light group-hover:text-[#0c59db]">
@@ -39,9 +39,8 @@ export default function Services() {
         </div>
         {/* card ends */}
 
-
         {/* card starts */}
-        <div className="min-w-40 min-h-[300px] py-8 relative  rounded-md  group transition-all bg-white shadow-md">
+        <div className="min-w-40 min-h-[300px] shrink-0 py-8 relative  rounded-md  group transition-all bg-white shadow-md">
           <div className="relative z-20">
             <div className="my-4 w-20 mx-auto z-20">
               <span className="w-20 h-20 bg-slate-300  rounded-full flex items-center justify-center text-4xl font-light group-hover:text-[#0c59db] ">
@@ -71,7 +70,7 @@ export default function Services() {
         </div>
         {/* card ends */}
         {/* card starts */}
-        <div className="min-w-40 min-h-[300px] py-8 relative  rounded-md  shadow-md group transition-all bg-white">
+        <div className="min-w-40 shrink-0 min-h-[300px] py-8 relative  rounded-md  shadow-md group transition-all bg-white">
           <div className="relative z-20">
             <div className="my-4 w-20 mx-auto z-20">
               <span className="w-20 h-20 bg-slate-300  rounded-full flex items-center justify-center text-4xl font-light group-hover:text-[#0c59db]">
@@ -94,7 +93,7 @@ export default function Services() {
                   read more
                 </span>
               </div>
-            </div>  
+            </div>
           </div>
 
           <div className="absolute top-0 left-0 w-full h-0 bg-[#0c59db] transition-all duration-500 ease-in-out group-hover:h-full z-10 rounded-md"></div>
