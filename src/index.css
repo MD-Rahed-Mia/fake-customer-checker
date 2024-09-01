@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .service-card {
+    @apply 
+} */
+
+.faq-content {
+    display: none;
+}
+.faq-toggle:checked ~ .faq-content {
+  display: block;
+}
