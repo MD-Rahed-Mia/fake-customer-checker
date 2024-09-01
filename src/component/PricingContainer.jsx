@@ -13,14 +13,16 @@ export default function PricingContainer() {
         backgroundPosition: "center",
       }}
     >
-      <div className="w-4/5 mx-auto grid gap-[10%] grid-cols-1 md:grid-cols-2 place-content-center place-items-start">
+      <div className="w-4/5 mx-auto grid gap-[10%] grid-cols-1 lg:grid-cols-2 place-content-center place-items-start">
         {/* pricing left */}
         <div>
           <div>
-            <h3 className="primary-color font-bold my-4">Pricing Plans</h3>
+            <h3 className="primary-color font-bold my-4 text-center">
+              Pricing Plans
+            </h3>
           </div>
           <div>
-            <h1 className="text-white mb-12 text-2xl md:text-4xl lg:text-4xl font-bold capitalize">
+            <h1 className="text-white mb-12 text-2xl md:text-4xl lg:text-4xl text-center md:text-left font-bold capitalize">
               Our Best Affordable Pricing Plan <br />
               Choose Your Plans
             </h1>
@@ -28,78 +30,28 @@ export default function PricingContainer() {
 
           {/* wrapper */}
           <div>
-            <div class="max-w-3xl h-fit mx-auto bg-white p-6 rounded-lg shadow-md">
+
+            
+            <div class="max-w-3xl h-fit mx-auto bg-white p-2 md:p-4 rounded-lg shadow-md">
               {/* faq section starts  */}
-              <div class="relative min-h-20 border rounded-md">
+              <div class="relative min-h-12 border rounded-md mb-2">
                 <input
                   type="checkbox"
                   id="faq-toggle"
                   class="faq-toggle hidden"
                 />
 
-                <div className="absolute top-5 right-8">
+                <div className="absolute top-2 md:top-4 right-2 md:right-4 faq-icon">
                   <FaChevronRight />
                 </div>
                 <label
                   htmlFor="faq-toggle"
-                  class="block p-4 bg-gray-200 cursor-pointer text-gray-700 font-semibold rounded-md hover:bg-gray-300"
+                  class="block p-2 text-[14px] md:text-xl bg-gray-200 cursor-pointer text-gray-700 font-semibold rounded-md hover:bg-gray-300  select-none"
                 >
                   How to increase product sales in 2024?
                 </label>
 
-                <div class="faq-content p-4 border-t border-gray-200">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Commodi iure voluptas facere quis deleniti optio nesciunt
-                  impedit, labore pariatur, voluptatem ex porro consectetur vero
-                  tenetur eaque harum mollitia molestiae unde.
-                </div>
-              </div>
-              {/* faq sections ends */}
-              {/* faq section starts  */}
-              <div class="relative min-h-20 border rounded-md">
-                <input
-                  type="checkbox"
-                  id="faq-toggle"
-                  class="faq-toggle hidden"
-                />
-
-                <div className="absolute top-5 right-8">
-                  <FaChevronRight />
-                </div>
-                <label
-                  htmlFor="faq-toggle"
-                  class="block p-4 bg-gray-200 cursor-pointer text-gray-700 font-semibold rounded-md hover:bg-gray-300"
-                >
-                  How to increase product sales in 2024?
-                </label>
-
-                <div class="faq-content p-4 border-t border-gray-200">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Commodi iure voluptas facere quis deleniti optio nesciunt
-                  impedit, labore pariatur, voluptatem ex porro consectetur vero
-                  tenetur eaque harum mollitia molestiae unde.
-                </div>
-              </div>
-              {/* faq sections ends */}
-              {/* faq section starts  */}
-              <div class="relative min-h-20 border rounded-md">
-                <input
-                  type="checkbox"
-                  id="faq-toggle"
-                  class="faq-toggle hidden"
-                />
-
-                <div className="absolute top-5 right-8">
-                  <FaChevronRight />
-                </div>
-                <label
-                  htmlFor="faq-toggle"
-                  class="block p-4 bg-gray-200 cursor-pointer text-gray-700 font-semibold rounded-md hover:bg-gray-300"
-                >
-                  How to increase product sales in 2024?
-                </label>
-
-                <div class="faq-content p-4 border-t border-gray-200">
+                <div class="faq-content p-4 border-t text-sm md:text-md border-gray-200">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Commodi iure voluptas facere quis deleniti optio nesciunt
                   impedit, labore pariatur, voluptatem ex porro consectetur vero
@@ -109,7 +61,8 @@ export default function PricingContainer() {
               {/* faq sections ends */}
             </div>
 
-           
+
+
           </div>
         </div>
         {/* pricing left end */}
@@ -137,7 +90,7 @@ export default function PricingContainer() {
                 <h3 className="primary-color uppercase">For 1 years</h3>
               </div>
 
-              <div className="flex ps-8 mt-4 justify-center gap-12 w-4/5 py-2">
+              <div className="flex ps-8 mt-4 flex-col lg:flex-row justify-center gap-8 md:gap-12 w-4/5 py-2">
                 <div className="h-[50px] w-[50px] p-4 text-white rounded-md flex items-center justify-center primary-bg">
                   <span className="text-xl  block">
                     <FaCheck />
@@ -164,45 +117,46 @@ export default function PricingContainer() {
             </div>
             {/* price cards */}
 
+
             {/* price cards */}
-            <div className="min-w-full min-h-[200px] relative  p-4 md:p-8 primary-bg rounded-md">
+            <div className="min-w-full min-h-[150px] relative  p-4 md:p-8 bg-white rounded-md">
               {/* price */}
               <div className="absolute top-16 right-12 ">
                 <span>
-                  <h1 className=" text-3xl text-white">BDT2500</h1>
+                  <h1 className=" text-3xl">BDT1500</h1>
                 </span>
               </div>
 
               {/* card title */}
-              <div className="primary-color bg-white absolute -top-4 right-8 py-2 px-6 rounded-md">
+              <div className="primary-bg text-white absolute -top-4 right-8 py-2 px-6 rounded-md">
                 <span>
-                  <h1>Business</h1>
+                  <h1>Popular</h1>
                 </span>
               </div>
 
               <div>
-                <h3 className="text-white uppercase">For 2 years</h3>
+                <h3 className="primary-color uppercase">For 1 years</h3>
               </div>
 
-              <div className="flex ps-8 mt-4 justify-center gap-12 w-4/5 py-2">
-                <div className="h-[50px] w-[50px] p-4 primary-color rounded-md flex items-center justify-center bg-white">
+              <div className="flex ps-8 mt-4 flex-col md:flex-row justify-center gap-8 md:gap-12 w-4/5 py-2">
+                <div className="h-[50px] w-[50px] p-4 text-white rounded-md flex items-center justify-center primary-bg">
                   <span className="text-xl  block">
                     <FaCheck />
                   </span>
                 </div>
                 <div>
                   <span>
-                    <h1 className="text-lg md:text-2xl uppercase text-white font-bold">
-                      30 Days For Free
+                    <h1 className="text-lg md:text-2xl uppercase font-bold">
+                      19 Days For Free
                     </h1>
                   </span>
-                  <span className="text-sm text-white  mt-4 block">
+                  <span className="text-sm  mt-2 block">
                     Multifunctional human capital after awesome superior
                     scenarios my coordinate
                   </span>
 
                   <span>
-                    <button className="block py-3 px-8 bg-white font-light primary-color mt-4 rounded-md">
+                    <button className="block py-3 px-8 primary-bg font-light text-white mt-4 rounded-md">
                       Purchased{" "}
                     </button>
                   </span>

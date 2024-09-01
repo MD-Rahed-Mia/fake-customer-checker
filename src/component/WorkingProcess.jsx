@@ -22,25 +22,50 @@ export default function WorkingProcess() {
           </h1>
         </div>
 
-        <div className="grid w-4/5 mx-auto mt-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-center place-items-center">
+        <div className="grid w-4/5 mx-auto mt-12 grid-cols-1 lg:grid-cols-2 lg:grid-cols-3 place-content-center place-items-center">
           {/* working card starts here */}
           <div className="">
-            <div className="w-48 h-48 my-8 mx-auto rounded-full object-cover flex items-center justify-center  ">
-              <div className="z-30 border-2 w-48 h-48 flex rounded-full items-center  justify-center relative">
+            <div className="w-24 md:w-32 lg:w-40 md:h-32 lg:h-40  h-24  my-8 mx-auto rounded-full object-cover flex items-center justify-center  ">
+              <div className="z-30 border-2 w-24  md:w-32 lg:w-40 md:h-32 lg:h-40 h-24  flex rounded-full items-center  justify-center relative">
                 <img
                   className="w-full h-full rounded-full"
                   src="/images/working.jpg"
                   alt="working"
                 />
 
-                <span className="absolute  -translate-x-1/2 -translate-y-1/2 rounded-full w-[112%] h-[112%]  border-blue-800 border-dashed border-4 -z-[1] animate-rotate"></span>
+                <span className="absolute  -translate-x-1/2 -translate-y-1/2 rounded-full w-[120%] h-[120%] md:w-[115%] md:h-[115%]   lg:w-[110%] lg:h-[110%] border-blue-800 border-dashed border-4 -z-[1] animate-rotate"></span>
               </div>
             </div>
-            <div className="my-4">
+            <div className="my-4 ">
               <h1 className="text-center text-xl md:text-2xl text-white">
                 Start A Project
               </h1>
-              <h3 className="text-center my-8 w-3/5 mx-auto font-light text-white text-md md:text-lg">
+              <h3 className="text-center my-4 md:my-8 w-full md:w-3/5 mx-auto font-light text-white text-md md:text-lg">
+                Proactively drive maintainable value next mission-critical
+                infrastructures done the new business to planning
+              </h3>
+            </div>
+          </div>
+          {/*working card ends here */}
+
+          {/* working card starts here */}
+          <div className="">
+            <div className="w-24 md:w-32 lg:w-40 md:h-32 lg:h-40  h-24  my-8 mx-auto rounded-full object-cover flex items-center justify-center  ">
+              <div className="z-30 border-2 w-24  md:w-32 lg:w-40 md:h-32 lg:h-40 h-24  flex rounded-full items-center  justify-center relative">
+                <img
+                  className="w-full h-full rounded-full"
+                  src="/images/working.jpg"
+                  alt="working"
+                />
+
+                <span className="absolute  -translate-x-1/2 -translate-y-1/2 rounded-full w-[120%] h-[120%] md:w-[115%] md:h-[115%]   lg:w-[110%] lg:h-[110%] border-blue-800 border-dashed border-4 -z-[1] animate-rotate"></span>
+              </div>
+            </div>
+            <div className="my-4 ">
+              <h1 className="text-center text-xl md:text-2xl text-white">
+                Start A Project
+              </h1>
+              <h3 className="text-center my-4 md:my-8 w-full md:w-3/5 mx-auto font-light text-white text-md md:text-lg">
                 Proactively drive maintainable value next mission-critical
                 infrastructures done the new business to planning
               </h3>
@@ -49,46 +74,22 @@ export default function WorkingProcess() {
           {/*working card ends here */}
           {/* working card starts here */}
           <div className="">
-            <div className="w-48 h-48 my-8 mx-auto rounded-full object-cover flex items-center justify-center  ">
-              <div className="z-30 border-2 w-48 h-48 flex rounded-full items-center  justify-center relative">
+            <div className="w-24 md:w-32 lg:w-40 md:h-32 lg:h-40  h-24  my-8 mx-auto rounded-full object-cover flex items-center justify-center  ">
+              <div className="z-30 border-2 w-24  md:w-32 lg:w-40 md:h-32 lg:h-40 h-24  flex rounded-full items-center  justify-center relative">
                 <img
                   className="w-full h-full rounded-full"
                   src="/images/working.jpg"
                   alt="working"
                 />
 
-                <span className="absolute  -translate-x-1/2 -translate-y-1/2 rounded-full w-[112%] h-[112%]  border-blue-800 border-dashed border-4 -z-[1] animate-rotate"></span>
+                <span className="absolute  -translate-x-1/2 -translate-y-1/2 rounded-full w-[120%] h-[120%] md:w-[115%] md:h-[115%]   lg:w-[110%] lg:h-[110%] border-blue-800 border-dashed border-4 -z-[1] animate-rotate"></span>
               </div>
             </div>
-            <div className="my-4">
+            <div className="my-4 ">
               <h1 className="text-center text-xl md:text-2xl text-white">
-                Anylysis and Solution
+                Start A Project
               </h1>
-              <h3 className="text-center my-8 w-3/5 mx-auto font-light text-white text-md md:text-lg">
-                Proactively drive maintainable value next mission-critical
-                infrastructures done the new business to planning
-              </h3>
-            </div>
-          </div>
-          {/*working card ends here */}
-          {/* working card starts here */}
-          <div className="">
-            <div className="w-48 h-48 my-8 mx-auto rounded-full object-cover flex items-center justify-center  ">
-              <div className="z-30 border-2 w-48 h-48 flex rounded-full items-center  justify-center relative">
-                <img
-                  className="w-full h-full rounded-full"
-                  src="/images/working.jpg"
-                  alt="working"
-                />
-
-                <span className="absolute  -translate-x-1/2 -translate-y-1/2 rounded-full w-[112%] h-[112%]  border-blue-800 border-dashed border-4 -z-[1] animate-rotate"></span>
-              </div>
-            </div>
-            <div className="my-4">
-              <h1 className="text-center text-xl md:text-2xl text-white">
-                Testing and Deliver
-              </h1>
-              <h3 className="text-center my-8 w-3/5 mx-auto font-light text-white text-md md:text-lg">
+              <h3 className="text-center my-4 md:my-8 w-full md:w-3/5 mx-auto font-light text-white text-md md:text-lg">
                 Proactively drive maintainable value next mission-critical
                 infrastructures done the new business to planning
               </h3>

@@ -19,34 +19,35 @@ export default function Nav() {
         </div>
 
         {/* menu container */}
-        <div
-          className={
-            menu
-              ? "absolute md:static top-[68px] left-0 bg-white h-auto overflow-visible md:h-auto md:overflow-visible"
-              : "absolute md:static top-[68px] left-0 bg-white h-0 overflow-hidden md:h-auto md:overflow-visible"
-          }
-        >
-          <div className="flex items-center justify-center flex-col md:flex-row gap-8 w-[100vw] md:w-auto py-4 md:py-0 border-t-2 md:border-t-0">
-            <ul className="flex items-center justify-center gap-8 flex-col md:flex-row w-full">
-              <li className="cursor-pointer hover:text-blue-700 transition">
-                Home
-              </li>
-              <li className="cursor-pointer hover:text-blue-700 transition">
-                About
-              </li>
-              <li className="cursor-pointer hover:text-blue-700 transition">
-                Services
-              </li>
-              <li className="cursor-pointer hover:text-blue-700 transition">
-                Blog
-              </li>
-            </ul>
-            <div>
-              <button className="px-8 py-3 md:px-6 md:py-2 md:text-sm md:min-w-32 text-white text-md primary-bg rounded-sm shadow-sm">
-                Contact Us
-              </button>
+        
+          <div
+            className={
+              menu
+                ? "absolute top-[64px] md:static  shadow-lg md:shadow-none left-0 bg-white h-auto overflow-visible md:h-auto md:overflow-visible"
+                : "absolute md:static top-[0] left-0 bg-white h-0 overflow-hidden md:h-auto md:overflow-visible"
+            }
+          >
+            <div className="flex items-center justify-center flex-col md:flex-row gap-8 w-[100vw] md:w-auto py-4 md:py-0 border-t-2 md:border-t-0">
+              <ul className="flex items-center justify-center gap-8 flex-col md:flex-row w-full">
+                <li className="cursor-pointer hover:text-blue-700 transition">
+                  Home
+                </li>
+                <li className="cursor-pointer hover:text-blue-700 transition">
+                  About
+                </li>
+                <li className="cursor-pointer hover:text-blue-700 transition">
+                  Services
+                </li>
+                <li className="cursor-pointer hover:text-blue-700 transition">
+                  Blog
+                </li>
+              </ul>
+              <div>
+                <button className="px-8 py-3 md:px-6 md:py-2 md:text-sm md:min-w-32 text-white text-md primary-bg rounded-sm shadow-sm">
+                  Contact Us
+                </button>
+              </div>
             </div>
-          </div>
         </div>
         {/* menu container ends */}
 

@@ -8,7 +8,7 @@ import { FaSearch } from "react-icons/fa";
 export default function Banner() {
   return (
     <div
-      className="w-full min-h-[85vh]"
+      className="w-full min-h-[70vh]"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.4)), url(${BannerBg})`,
         backgroundRepeat: "no-repeat",
@@ -16,8 +16,8 @@ export default function Banner() {
         backgroundPosition: "center",
       }}
     >
-      <div className="w-full md:w-4/5 mx-auto min-h-[85vh] px-8 md:px-0 grid grid-cols-1 md:grid-cols-2  place-items-center">
-        <div className="px-8">
+      <div className="w-full md:w-4/5 mx-auto min-h-[85vh] px-8 md:px-0 grid grid-cols-1 lg:grid-cols-2  place-items-center">
+        <div className="px-8 order-2 lg:order-1">
           <div>
             <h1 className="text-white text-md font-light">
               IT SOLUTION AGENCY IN USA
@@ -32,13 +32,13 @@ export default function Banner() {
           </div>
 
           <div className="mt-8 flex items-center gap-8">
-            <button className="px-8 py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
+            <button className="px-4 md:px-8 py-2 md:py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
               <span>
                 <BiLinkExternal />
               </span>
               <span>Lets Talk</span>
             </button>
-            <button className="px-8 py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
+            <button className="px-4 md:px-8 py-2 md:py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
               <span>
                 <FaLink />
               </span>
@@ -46,10 +46,10 @@ export default function Banner() {
             </button>
           </div>
         </div>
-        <div className="relative w-full h-full flex items-center justify-center">
+        <div className="relative w-full h-full flex items-center justify-center order-1 lg:order-2">
           {/* <img src={HeroThumb} alt="hero" className="absolute bottom-0"/> */}
 
-          <div className="w-4/5 min-h-[50px] mx-auto bg-white rounded-full text-blue-500 flex items-center gap-2 justify-between">
+          <div className="w-full min-h-[50px] mx-auto bg-white rounded-full text-blue-500 flex items-center gap-2 justify-between">
             <div className="w-32 h-[50px] rounded-l-full flex items-center justify-center font-bold text-xl bg-slate-300">
               <span>088</span>
             </div>

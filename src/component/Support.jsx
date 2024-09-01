@@ -7,7 +7,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 export default function Support() {
   return (
     <div className="w-full min-h-[40vh] py-24 pb-40">
-      <div className="mx-auto w-full min-h-[40vh] md:w-4/5 grid grid-cols-1 md:grid-cols-2 place-content-center">
+      <div className="mx-auto w-full min-h-[40vh] md:w-4/5 grid grid-cols-1 lg:grid-cols-2 place-content-center">
         {/* suppert left */}
         <div
           className="w-[90%] md:w-4/5 mx-auto h-[60vh]"

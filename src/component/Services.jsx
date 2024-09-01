@@ -6,8 +6,8 @@ import { MdHeadsetMic } from "react-icons/md";
 
 export default function Services() {
   return (
-    <div className="w-full min-h-[40vh] -translate-y-24 ">
-      <div className="w-4/5 lg:w-3/5 mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 min-h-[400px] place-content-center">
+    <div className="w-full min-h-[40vh] lg:-translate-y-24 pt-20 lg:pt-0">
+      <div className="w-4/5 lg:w-3/5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[400px] place-content-center">
         {/* card starts */}
         <div className="min-w-40 shrink-0 min-h-[300px] py-8 relative  rounded-md  shadow-md group transition-all bg-white">
           <div className="relative z-20">

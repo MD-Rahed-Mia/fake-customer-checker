@@ -12,28 +12,27 @@ export default function ProjectCounter() {
           backgroundPosition: "center",
         }}
       >
-        <div className="grid grid-cols-2 md:grid-cols-4 w-4/5 mx-auto  gap-4 place-content-center min-h-[40vh] place-items-center">
+        <div className="grid grid-cols-2 lg:grid-cols-4 w-4/5 mx-auto  gap-4 place-content-center min-h-[40vh] place-items-center">
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-2xl md:text-6xl font-bold text-white">
+              <span className="text-2xl lg:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-[12px] md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-md text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>
           </div>
           {/* ends */}
 
-
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-2xl md:text-6xl font-bold text-white">
+              <span className="text-2xl lg:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-[12px] md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-md text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>
@@ -42,10 +41,10 @@ export default function ProjectCounter() {
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-2xl md:text-6xl font-bold text-white">
+              <span className="text-2xl lg:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-[12px] md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-md text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>
@@ -54,10 +53,10 @@ export default function ProjectCounter() {
           {/* starts */}
           <div>
             <h1 className="flex flex-col items-center justify-center gap-4">
-              <span className="text-2xl md:text-6xl font-bold text-white">
+              <span className="text-2xl lg:text-6xl font-bold text-white">
                 100%
               </span>
-              <span className="text-[12px] md:text-xl text-white font-light uppercase">
+              <span className="text-[12px] md:text-md text-white font-light uppercase">
                 Satisfaction Rates
               </span>
             </h1>

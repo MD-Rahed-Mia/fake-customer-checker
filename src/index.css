@@ -7,8 +7,22 @@
 } */
 
 .faq-content {
-    display: none;
+  display: none;
 }
 .faq-toggle:checked ~ .faq-content {
   display: block;
+}
+
+.faq-toggle:checked ~ .faq-icon {
+  transform: rotate(90deg);
+}
+
+.transparent-black {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* l-----------------------------l */
+
+.footer-list {
+  @apply w-full flex items-center gap-2 py-2 px-4 cursor-pointer hover:text-blue-500 transition
 }

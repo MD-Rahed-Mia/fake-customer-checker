@@ -19,7 +19,7 @@ export default function OurProduct() {
             IT Services For Business
           </h1>
         </div>
-        <div className="max-w-[80%] md:max-w-[50%] mx-auto">
+        <div className="max-w-[80%] lg:max-w-[50%] mx-auto">
           <h1 className="text-2xl md:text-5xl font-bold text-white text-center capitalize">
             Ensuring Your Success Trusted IT Services Source
           </h1>
