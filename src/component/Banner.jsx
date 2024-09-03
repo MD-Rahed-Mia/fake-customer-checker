@@ -8,7 +8,7 @@ import { FaSearch } from "react-icons/fa";
 export default function Banner() {
   return (
     <div
-      className="w-full min-h-[70vh]"
+      className="w-full min-h-[70vh] py-12 lg:py-0"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.4)), url(${BannerBg})`,
         backgroundRepeat: "no-repeat",
@@ -17,28 +17,28 @@ export default function Banner() {
       }}
     >
       <div className="w-full md:w-4/5 mx-auto min-h-[85vh] px-8 md:px-0 grid grid-cols-1 lg:grid-cols-2  place-items-center">
-        <div className="px-8 order-2 lg:order-1">
+        <div className="px-4 md:px-8 order-2 lg:order-1">
           <div>
             <h1 className="text-white text-md font-light">
               IT SOLUTION AGENCY IN USA
             </h1>
-            <h1 className="text-white my-8 md:my-0 text-4xl md:text-4xl lg:text-6xl leading-[40px] md:leading-[60px] lg:leading-[80px] font-bold">
+            <h1 className="text-white text-center lg:text-left my-8 md:my-0 text-4xl md:text-4xl lg:text-6xl leading-[40px] md:leading-[60px] lg:leading-[80px] font-bold">
               BUSINESS INNOVATION WITH IT EXPERT
             </h1>
-            <h3 className="text-white font-light mt-3 text-lg">
+            <h3 className="text-white text-center md:text-left font-light mt-3 text-lg">
               Professionally optimize interdependent intellectual interoperable
               connect best practices. Progressively fabricate done
             </h3>
           </div>
 
-          <div className="mt-8 flex items-center gap-8">
-            <button className="px-4 md:px-8 py-2 md:py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
+          <div className="mt-8 flex items-center gap-8 flex-col lg:flex-row">
+            <button className="px-4 md:px-8  py-2 md:py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
               <span>
                 <BiLinkExternal />
               </span>
               <span>Lets Talk</span>
             </button>
-            <button className="px-4 md:px-8 py-2 md:py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
+            <button className="px-4 md:px-8  py-2 md:py-4 primary-bg text-sm text-white rounded-sm flex items-center justify-center gap-2">
               <span>
                 <FaLink />
               </span>

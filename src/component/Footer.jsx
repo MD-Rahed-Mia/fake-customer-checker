@@ -9,7 +9,7 @@ import {
 export default function Footer() {
   return (
     <div
-      className="w-full bg-slate-200 flex items-center justify-center py-8 md:py-0 flex-col"
+      className="w-full bg-slate-200 flex items-center justify-center  md:py-0 flex-col"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.4)), url(${BackgroundImage})`,
         backgroundSize: "cover",
@@ -20,7 +20,7 @@ export default function Footer() {
         <div>
           <span>
             <h1 className="text-3xl font-bold  uppercase text-white">
-              Cust<span className="text-blue-700">Tomer</span>
+              Cus<span className="text-blue-700">Tomer</span>
             </h1>
           </span>
           <span>
@@ -43,7 +43,7 @@ export default function Footer() {
           <h1 className="font-bold text-2xl">Our Services</h1>
 
           <div>
-            <ul className="mt-6">
+            <ul className="">
               <li className="footer-list">
                 <span>
                   <FaArrowRight />

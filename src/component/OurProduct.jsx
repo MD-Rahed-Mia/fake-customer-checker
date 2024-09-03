@@ -25,7 +25,7 @@ export default function OurProduct() {
           </h1>
         </div>
 
-        <div className="w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 place-content-center place-items-center">
+        <div className="w-full lg:w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 place-content-center place-items-center">
           {/* product cards */}
           <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group ">
             {/* card content */}
