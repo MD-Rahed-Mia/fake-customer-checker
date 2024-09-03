@@ -31,9 +31,9 @@ export default function PricingContainer() {
           {/* wrapper */}
           <div>
 
-            
+{/*             
             <div class="max-w-3xl h-fit mx-auto bg-white p-2 md:p-4 rounded-lg shadow-md">
-              {/* faq section starts  */}
+              
               <div class="relative min-h-12 border rounded-md mb-2">
                 <input
                   type="checkbox"
@@ -58,8 +58,8 @@ export default function PricingContainer() {
                   tenetur eaque harum mollitia molestiae unde.
                 </div>
               </div>
-              {/* faq sections ends */}
-            </div>
+            
+            </div> */}
 
 
 
