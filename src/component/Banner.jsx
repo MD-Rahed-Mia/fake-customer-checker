@@ -17,7 +17,7 @@ export default function Banner() {
       }}
     >
       <div className="w-full md:w-4/5 mx-auto min-h-[85vh] px-8 md:px-0 grid grid-cols-1 lg:grid-cols-2  place-items-center">
-        <div className="px-4 md:px-8 order-2 lg:order-1">
+        <div className="px-4 md:px-8 order-2 lg:order-1" data-aos="fade-right">
           <div>
             <h1 className="text-white text-md font-light">
               IT SOLUTION AGENCY IN USA
@@ -46,7 +46,10 @@ export default function Banner() {
             </button>
           </div>
         </div>
-        <div className="relative w-full h-full flex items-center justify-center order-1 lg:order-2">
+        <div
+          className="relative w-full h-full flex items-center justify-center order-1 lg:order-2"
+          data-aos="fade-left"
+        >
           {/* <img src={HeroThumb} alt="hero" className="absolute bottom-0"/> */}
 
           <div className="w-full min-h-[50px] mx-auto bg-white rounded-full text-blue-500 flex items-center gap-2 justify-between">

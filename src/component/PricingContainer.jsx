@@ -71,7 +71,7 @@ export default function PricingContainer() {
         <div className="py-8 w-full">
           <div className="w-full grid grid-cols-1 md:grid-cols-1 gap-8">
             {/* price cards */}
-            <div className="min-w-full min-h-[150px] relative  p-4 md:p-8 bg-white rounded-md">
+            <div className="min-w-full min-h-[150px] relative  p-4 md:p-8 bg-white rounded-md" data-aos="flip-down">
               {/* price */}
               <div className="absolute top-16 right-12 ">
                 <span>
@@ -119,7 +119,7 @@ export default function PricingContainer() {
 
 
             {/* price cards */}
-            <div className="min-w-full min-h-[150px] relative  p-4 md:p-8 bg-white rounded-md">
+            <div className="min-w-full min-h-[150px] relative  p-4 md:p-8 bg-white rounded-md" data-aos="flip-up">
               {/* price */}
               <div className="absolute top-16 right-12 ">
                 <span>

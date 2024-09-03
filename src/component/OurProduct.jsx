@@ -27,7 +27,7 @@ export default function OurProduct() {
 
         <div className="w-full lg:w-4/5 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 place-content-center place-items-center">
           {/* product cards */}
-          <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group ">
+          <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group" data-aos="fade-up">
             {/* card content */}
             <div className="relative z-20">
               <div className="primary-color group-hover:text-white text-6xl font-bold">
@@ -56,7 +56,7 @@ export default function OurProduct() {
             <div className="absolute w-full group-hover:h-full ease-in-out  h-0 primary-bg z-10 top-0 left-0 rounded-md transition duration-1000"></div>
           </div>
           {/* card ends here */} {/* product cards */}
-          <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group ">
+          <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group " data-aos="fade-up">
             {/* card content */}
             <div className="relative z-20">
               <div className="primary-color group-hover:text-white text-6xl font-bold">
@@ -85,7 +85,7 @@ export default function OurProduct() {
             <div className="absolute w-full group-hover:h-full ease-in-out  h-0 primary-bg z-10 top-0 left-0 rounded-md transition duration-1000"></div>
           </div>
           {/* card ends here */} {/* product cards */}
-          <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group ">
+          <div className=" relative p-10 min-h-[250px] transition-all rounded-md bg-white shadow-md group " data-aos="fade-up">
             {/* card content */}
             <div className="relative z-20">
               <div className="primary-color group-hover:text-white text-6xl font-bold">
@@ -114,7 +114,7 @@ export default function OurProduct() {
             <div className="absolute w-full group-hover:h-full ease-in-out  h-0 primary-bg z-10 top-0 left-0 rounded-md transition duration-1000"></div>
           </div>
           {/* card ends here */} {/* product cards */}
-          <div className=" relative p-10 min-h-[316px] transition-all rounded-md bg-white shadow-md group ">
+          <div className=" relative p-10 min-h-[316px] transition-all rounded-md bg-white shadow-md group "  data-aos="fade-up" >
             {/* card content */}
             <div className="relative z-20">
               <div className="primary-color group-hover:text-white text-6xl font-bold">
@@ -143,7 +143,7 @@ export default function OurProduct() {
             <div className="absolute w-full group-hover:h-full ease-in-out  h-0 primary-bg z-10 top-0 left-0 rounded-md transition duration-1000"></div>
           </div>
           {/* card ends here */} {/* product cards */}
-          <div className=" relative p-10 min-h-[316px] transition-all rounded-md bg-white shadow-md group ">
+          <div className=" relative p-10 min-h-[316px] transition-all rounded-md bg-white shadow-md group " data-aos="fade-up">
             {/* card content */}
             <div className="relative z-20">
               <div className="primary-color group-hover:text-white text-6xl font-bold">
@@ -172,7 +172,7 @@ export default function OurProduct() {
             <div className="absolute w-full group-hover:h-full ease-in-out  h-0 primary-bg z-10 top-0 left-0 rounded-md transition duration-1000"></div>
           </div>
           {/* card ends here */} {/* product cards */}
-          <div className=" relative p-10 min-h-[316px] transition-all rounded-md bg-white shadow-md group ">
+          <div className=" relative p-10 min-h-[316px] transition-all rounded-md bg-white shadow-md group " data-aos="fade-up">
             {/* card content */}
             <div className="relative z-20">
               <div className="primary-color group-hover:text-white text-6xl font-bold">
